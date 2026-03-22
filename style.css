@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #020617;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0ea5e9, #1e293b);
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 50px;
+}
+
+.hero-sub {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 80px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+/* TEAM */
+.team-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: #1e293b;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: #334155;
+  color: #0ea5e9;
+  box-shadow: #0ea5e9 0px 0px 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+
+/* ORDERED LIST */
+.section ol {
+  padding-left: 20px;
+}
+
+/* CIRCUIT IMAGE */
+.circuit-img {
+  width: 60%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
